@@ -5,3 +5,64 @@
 .main {
     text-align: center;
 }
+.h-header-learn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    font-family: Libre Baskerville, serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #a68a65;
+}
+.cur-h {
+    font-family: Libre Baskerville, serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #a68a65;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.cur-p {
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cp {
+    font-family: Outfit, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.lbc {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 30px;
+}
+.lbc-l, .lbc-b, .lbc-c {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #A68A6D;
+    
+    border-style: solid;
+    border-color: rgb(215, 193, 153);
+    border-radius: 30px;
+    border-right-width: 0.8px;
+    border-left-width: 0.8px;
+    border-top-width: 0.8px;
+    border-bottom-width: 0.8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: 152px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: rgb(255 248 240 / var(--tw-bg-opacity, .5));
+}

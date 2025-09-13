@@ -15,7 +15,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
+
 
     margin: 0;
 }
@@ -28,17 +29,73 @@
 
 .line {
     font-family: Outfit, sans-serif ;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #29303d;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-        gap: 50px;
+    gap: 90px;
+}
+.introduce {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header-one
+{
+    font-family: Libre Baskerville, serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #B1A091;
+    text-align: center;
+    margin: 0;
+}
+.ho-p {
+    font-family: Outfit, sans-serif;
 }
 .h-about {
     margin-right: 20px;
+}
+
+.why-learn {
+    align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            row-gap:30px;
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;           
+}
+.wl-four {
+    text-align: center;
+
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 13px;
+    background-color: antiquewhite;
+    border-width: 1px;
+}
+
+.start-learn {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.start-button {
+    background-color: rgb(215 191 174);
+    color: black;
+    font-family: Outfit, Libre Baskerville, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: none;
+    border-color: rgb(232 217 195);
+    border-radius: 30px;
+    text-decoration: none;
 }
 
 
