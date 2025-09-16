@@ -54,6 +54,8 @@
 }
 .ho-p {
     font-family: Outfit, sans-serif;
+    color: #4A3E31;
+    font-size: 20px;
 }
 .h-about {
     margin-right: 20px;
@@ -83,20 +85,96 @@
 .start-learn {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 .start-button {
-    background-color: rgb(215 191 174);
+    background-color: rgb(218, 187, 166);
     color: black;
+
     font-family: Outfit, Libre Baskerville, sans-serif;
-    font-size: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 700;
     padding: 15px 30px;
+
     border: none;
     border-color: rgb(232 217 195);
     border-radius: 30px;
+    border-bottom: 20px;
+    
+
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, cursor 0.3s;
 }
+.start-button:hover {
+    background-color: rgb(166, 136, 112);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.join-community {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.h-jtc{
+    font-family: Libre Baskerville, serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #a68a65;
+    margin-bottom: 30px;
+}
+.h-cog {
+    background-color: rgb(218, 187, 166);
+    color: black;
+
+    font-family: Outfit, Libre Baskerville, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    padding: 15px 30px;
+
+    border: none;
+    border-color: rgb(232 217 195);
+    border-radius: 30px;
+    border-bottom: 20px;
+
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, cursor 0.3s;
+}
+.h-cog:hover {
+    background-color: rgb(166, 136, 112);
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+.p-jc {
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    color: #4A3E31;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container-f {
+    background-color: #F5E5D1;
+    height: 50px;
 
 
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-radius: 2px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    margin: 0;
+}
+.f-est {
+    font-family: Outfit, sans-serif;
+    font-size: 13px;
+    color: #B1A091;
+    margin-left: -15px;
+}
 /* #4A3E31 text B1A091 and #a68a65 , 2D3748 */
