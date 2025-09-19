@@ -84,7 +84,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
 
-    animation: popUp 0.5s ease-out; /* Apply the pop-up animation */
+    animation: popUp 0.8s ease-out; /* Apply the pop-up animation */
     animation-delay: 0.2s; /* Delay for better effect */
     animation-fill-mode: both;
 }
@@ -234,6 +234,10 @@
     color: #29303d;
 }
 .h-home a {
+    text-decoration: none;
+    color: #29303d;
+}
+.h-cur a {
     text-decoration: none;
     color: #29303d;
 }

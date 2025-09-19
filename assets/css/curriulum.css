@@ -1,0 +1,89 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.container-h {
+    background-color: #F5E5D1;
+    height: 50px;
+
+
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-radius: 2px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+
+
+    margin: 0;
+}
+.p-name {
+    color: #a68a65;
+    font-family: Libre Baskerville, serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.line {
+    font-family: Outfit, sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+.h-about a {
+    text-decoration: none;
+    color: #29303d;
+}
+.h-home a {
+    text-decoration: none;
+    color: #29303d;
+}
+.h-cur a {
+    text-decoration: none;
+    color: #29303d;
+}
+.h-about {
+    margin-right: 20px;
+}
+
+.container-f {
+    background-color: #F5E5D1;
+    height: 50px;
+
+
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-radius: 2px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    margin: 0;
+}
+.f-est {
+    font-family: Outfit, sans-serif;
+    font-size: 13px;
+    color: #B1A091;
+    margin-left: -15px;
+}
+.f-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 500px;
+    margin-left: 50px;
+}
