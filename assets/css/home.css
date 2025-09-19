@@ -84,8 +84,8 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
 
-    animation: popUp 0.8s ease-out; /* Apply the pop-up animation */
-    animation-delay: 0.2s; /* Delay for better effect */
+    animation: popUp 0.8s ease-out;
+    animation-delay: 0.2s;
     animation-fill-mode: both;
 }
 @media (max-width: 768px) {
