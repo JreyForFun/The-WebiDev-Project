@@ -53,6 +53,40 @@
 .h-about {
     margin-right: 20px;
 }
+.cur-text-con {
+    align-items: center;
+}
+.h-cur, .p-cur{
+    text-align: center;
+}
+.h-curr {
+    text-align: center;
+    font-family: Libre Baskerville, serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #a68a65;
+    margin-top: 50px;
+}
+.p-cur {
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.container-cont {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300, 300, 300;   
+    column-gap: 70px;
+    row-gap: 50px;
+}
 
 .container-f {
     background-color: #F5E5D1;
