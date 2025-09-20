@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
-
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 
     margin: 0;
 }
@@ -62,7 +62,7 @@
 .h-curr {
     text-align: center;
     font-family: Libre Baskerville, serif;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 700;
     color: #a68a65;
     margin-top: 50px;
@@ -70,7 +70,7 @@
 .p-cur {
     text-align: center;
     font-family: Outfit, sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
 
     margin-top: -20px;
@@ -82,31 +82,57 @@
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    column-gap: 0px;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
     row-gap: 0px;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 200px;;
 }
 .container-course {
     text-align: center;
     padding: 30px;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border: 1px solid rgb(232, 217, 195);
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-}.h-cont {
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s, color 0.3s, cursor 0.3s;
+    text-decoration: none; color: inherit;
+}
+.container-course:hover {
+    transform: scale(1.1); /* Make the container bigger */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+    background-color: rgb(166, 136, 112, 0.050);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.c-icon {
+    filter: invert(60%) sepia(40%) saturate(500%) hue-rotate(10deg) brightness(80%) contrast(90%);
+    margin-bottom: 15px;
+    margin: 20px auto;
+    padding-bottom: 1px;
+}
+.c-icon:hover, .h-cont:hover {
+    filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(10deg) brightness(60%) contrast(90%);
+}
+.h-cont {
     font-family: Libre Baskerville, serif;
     font-weight: 700;
-    font-size: 29px;
+    font-size: 35px;
     color: #a68a65;
     margin-top: 10px;
     margin-bottom: px;
     text-align: center;
 }
+.link-course {
+    text-decoration: none; 
+    color: inherit;
+    display: block;
+}
+/*
 .p-cont {
     font-family: Outfit thin, sans-serif;
     font-weight: 400;
@@ -114,6 +140,8 @@
     margin-top: 10px;
     line-height: 1.6;
 }
+    */
+/*
 .l-cont {
     background-color: rgb(218, 187, 166);
     color: black;
@@ -137,7 +165,7 @@
     color: whitesmoke;
     cursor: pointer;
 }
-
+*/
 
 .container-f {
     background-color: #F5E5D1;
