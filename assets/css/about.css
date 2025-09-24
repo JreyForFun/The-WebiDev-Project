@@ -200,6 +200,9 @@
     text-decoration: none;
     color: #29303d;
 }
+.h-home {
+    margin-right: 10px;
+}
 .h-about {
     margin-right: -10px;
 }
@@ -290,5 +293,6 @@
         gap: 20px;
         justify-content: center;
         margin: 0; 
+        margin-right: 10px;
     }
 }
