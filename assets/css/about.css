@@ -162,7 +162,7 @@
     margin-left: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
 
  .container-h {
     background-color: #F5E5D1;
